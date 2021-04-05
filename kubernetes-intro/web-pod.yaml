@@ -1,7 +1,7 @@
 apiVersion: v1 # Версия API
 kind: Pod # Объект, который создаем
 metadata:
- name: web-pod-1
+ name: web
  labels: # Метки в формате key: value
    app: web
 spec: # Описание Pod
