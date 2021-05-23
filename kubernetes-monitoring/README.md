@@ -24,6 +24,7 @@ kubectl apply -f https://raw.githubusercontent.com/prometheus-operator/prometheu
 И проверим что отдает : curl http://127.0.0.1:9113/metrics
 
 ——————————
+```
 curl http://127.0.0.1:9113/metrics
 <!DOCTYPE html>
                         <title>NGINX Exporter</title>
@@ -57,3 +58,4 @@ nginx_up 1
 nginxexporter_build_info{commit="5f88afbd906baae02edfbab4f5715e06d88538a0",date=                          "2021-03-22T20:16:09Z",version="0.9.0"} 1
 
 ——————————
+```
